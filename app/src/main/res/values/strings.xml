@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">SimpleWebBrowser</string>
-    <string name="but_prev">이전</string>
+    <string name="app_name">simpleWebBrowser</string>
     <string name="but_move">이동</string>
-    <string name="edit"></string>
+    <string name="but_prev">이전</string>
 </resources>

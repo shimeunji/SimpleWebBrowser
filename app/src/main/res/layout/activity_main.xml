@@ -10,25 +10,28 @@
     tools:context="kr.hs.emirim.kokopink1.simplewebbrowser.MainActivity"
     android:orientation="vertical">
 
-    <linearJLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
             android:id="@+id/edit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:singleline="true"/>
-        <Button
-            android:id="@+id/but_prev"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_weight="1"
+            android:singleLine="true"/>
         <Button
             android:id="@+id/but_move"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </linearJLayout>
+            android:layout_height="wrap_content"
+            android:text="@string/but_move"/>
+        <Button
+            android:id="@+id/but_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/but_prev"/>
+    </LinearLayout>
     <WebView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/web"></WebView>
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="435dp"/>
 </LinearLayout>
